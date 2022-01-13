@@ -1,5 +1,5 @@
 {
-  "name": "weather-details",
+  "name": "temperature-converter",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
@@ -20,7 +20,6 @@
     "@angular/router": "^10.0.4",
     "h8k-components": "^1.0.0",
     "h8k-design": "^1.0.15",
-    "bluebird": "^3.7.2",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"

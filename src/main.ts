@@ -12,6 +12,6 @@ platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
 
 applyPolyfills()
-.then(() => {
-  defineCustomElements()
-})
+  .then(() => {
+    defineCustomElements()
+  })

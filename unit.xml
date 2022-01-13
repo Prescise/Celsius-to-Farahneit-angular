@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 97.0.4692 (Mac OS X 10.15.7)" package="unit" timestamp="2022-01-13T14:43:44" id="0" hostname="MacBook-Pro-de-Prescillia.local" tests="6" errors="0" failures="0" time="0.101">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/97.0.4692.71 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent should have the title 'Temperature Converter'" time="0.037" classname=".AppComponent"/>
+  <testcase name="TemperatureConverter Typing value in Fahrenheit field gets correct Celsius value" time="0.03" classname=".TemperatureConverter"/>
+  <testcase name="TemperatureConverter Typing value in Fahrenheit field gets correct Celsius value upto 1 decimal values" time="0.01" classname=".TemperatureConverter"/>
+  <testcase name="TemperatureConverter Typing value in Celsius field gets correct Fahrenheit value" time="0.008" classname=".TemperatureConverter"/>
+  <testcase name="TemperatureConverter Typing value in Celsius field gets correct Fahrenheit value upto 1 decimal values" time="0.008" classname=".TemperatureConverter"/>
+  <testcase name="TemperatureConverter Perform series of actions" time="0.008" classname=".TemperatureConverter"/>
+  <system-out>
+    <![CDATA[HeadlessChrome 97.0.4692 (Mac OS X 10.15.7) ERROR: ''h8k-navbar' is not a known element:
+1. If 'h8k-navbar' is an Angular component, then verify that it is part of this module.
+2. If 'h8k-navbar' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,HeadlessChrome 97.0.4692 (Mac OS X 10.15.7) ERROR: ''temperature-converter' is not a known element:
+1. If 'temperature-converter' is an Angular component, then verify that it is part of this module.
+2. If 'temperature-converter' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
